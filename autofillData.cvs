@@ -1,0 +1,258 @@
+### AUTOFILL PROFILES ###,,,,,,
+Profile ID,Name,Site,Hotkey,,,
+c1096,"***************{P de TRABALHO}******************-","","",,,
+c1097,"EMANUEL VAZ(*)","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Z",,,
+c1099,"<>*********************************************<>","","",,,
+c1100,"***************{CONTRATO de TRABALHO}******************","","",,,
+c1101,"<>***********************************************<>","","",,,
+c1102,"*****************{ESTUDANTES}***********************.","","",,,
+c1103,"<>**************************************************<>","","",,,
+c1104,"*************** [REGISTRO/LOGIN/IEFP]****************","","",,,
+c1105,">>LOGIN 1<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
+c1106,">>LOGIN 2<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
+c1107,">>LOGIN 3<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
+c1123,">>LOGIN X1<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","Ctrl + Shift + Arrow Left",,,
+c1124,">>LOGIN X2<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","Ctrl + Shift + Arrow Up",,,
+c1125,">>LOGIN X3<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","Ctrl + Shift + Arrow Right",,,
+c1126,">>LOGIN Y1<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
+c1127,">>LOGIN Y2<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
+c1128,">>LOGIN Y3<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
+c1109,"***********[CONTA BANCARIO]***************","","",,,
+c1122,"<.>Conta Edy <.>","vinti4net.cv/bizmpi3ds/CardPayment","",,,
+c1111,"<.>Conta Coys<.>","vinti4net.cv/bizmpi3ds/CardPayment","",,,
+c1113,"«««««««««««««««««»»»»»»»»»»»»»»»»»»»»","","",,,
+c1114,"»»»» NITRO   (N2O) «««««","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Space",,,
+c1115,"»»»» Seleção Procura/Contrato/Estudante«««««","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Arrow Up",,,
+c1116,"»»»» Seleção Reagrupamento«««««","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Arrow Down",,,
+c1117,"»»»» Desativar Teclado Virtual ««««««","https://visa.vfsglobal.com/cpv/en/prt/application-detail || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Arrow Left",,,
+c1118,"»»»» Ativar Button Avanc ««««««","https://visa.vfsglobal.com/cpv/en/prt/application-detail || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Arrow Right",,,
+c1119,"«««««««««««««««««»»»»»»»»»»»»»»»»»»»»»","","",,,
+### AUTOFILL RULES ###,,,,,,
+Rule ID,Type,Name,Value,Site,Mode,Profile
+r3826,4,"","//»»»»»»»»»»»»»»»»»»»        selecao de opcao de tipo de visto    «««««««««««««««««««««««««««««««««
+
+
+document.querySelectorAll('.mat-select')[1]?.click();
+document.querySelectorAll('.mat-option')[1]?.click();
+
+
+//«««««««««««««««««««««««««««««««««««««««««««««««««»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+setTimeout(function() {
+document.querySelectorAll('.mat-select')[2]?.click();
+document.querySelectorAll('.mat-option')[0]?.click();
+}, 2000);
+","",1,c1115
+r3827,4,"","document.querySelector('.btn-brand-orange')?.removeAttribute(""disabled"");
+
+","",1,c1118
+r3828,4,"","//document.querySelector('.btn-brand-orange')?.removeAttribute(""disabled"");
+document.querySelector('#mat-input-5')?.removeAttribute(""readonly"");
+document.querySelectorAll('.mat-input-element.mat-form-field-autofill-control')[0]?.removeAttribute(""readonly"");
+
+//let elFullName = document.querySelector('#password');
+//if (elFullName) {
+
+//}","",1,c1117
+r3829,4,"","//»»»»»»»»»»»»»»»»»»»        selecao de opcao de tipo de visto    «««««««««««««««««««««««««««««««««
+
+
+document.querySelectorAll('.mat-select')[1]?.click();
+document.querySelectorAll('.mat-option')[0]?.click();
+
+
+//«««««««««««««««««««««««««««««««««««««««««««««««««»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+
+","",1,c1116
+r3835,0,"^email$","xpidvisto4@prohade.com","",1,c1107
+r3836,4,"","let elFullName = document.querySelector('#password');
+if (elFullName) {
+  elFullName.value = 'A@a12345';
+}
+document.querySelector('.recaptcha-checkbox-checkmark').click();","",1,c1107
+r3859,4,"","function autoFillAndSubmit() {
+  const emailField = document.getElementById('email');
+  if (emailField) {
+    emailField.value = 'illmatic_class@zohomail.com';
+    emailField.dispatchEvent(new Event('input', { bubbles: true }));
+    emailField.dispatchEvent(new Event('blur'));
+  }
+
+  // Fill in the password
+  const passwordField = document.getElementById('password');
+  if (passwordField) {
+    passwordField.value = 'Tarrafal23@';
+    passwordField.dispatchEvent(new Event('input', { bubbles: true }));
+    passwordField.dispatchEvent(new Event('blur'));
+  }
+
+  // Find the submit button
+  const submitButton = document.querySelector('button[mat-stroked-button]');
+  if (submitButton) {
+    // Enable the button if it's disabled
+    submitButton.disabled = false;
+
+    // Simulate a button click
+    submitButton.click();
+  }
+}
+
+autoFillAndSubmit();","",1,c1113
+r3830,4,"","//step1 avanc com nome
+document.querySelector('.btn-brand-orange.mat-stroked-button.mat-button-base')?.click();
+
+//step2 geration
+//setTimeout(function() {
+//document.querySelector('.btn-brand-orange.mat-raised-button.mat-button-base.ng-star-inserted')?.click();
+//}, 500);
+//»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+//verifica e geracion
+setTimeout(function() {
+document.querySelector('.btn-brand-orange.mat-raised-button.mat-button-base')?.click();
+}, 500);
+//»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+//checkbox
+let elFullName = document.querySelectorAll('.mat-checkbox-input.cdk-visually-hidden')[0];
+
+document.querySelectorAll('.mat-checkbox-input.cdk-visually-hidden')[0]?.click();
+document.querySelectorAll('.mat-checkbox-input.cdk-visually-hidden')[1]?.click();
+//avancar
+if(elFullName){
+setTimeout(function() {
+ document.querySelector('.btn-brand-orange.mat-raised-button.mat-button-base')?.click();
+}, 500);
+}
+//»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+//pagamento
+ document.querySelectorAll('.btn-outline-brand-orange.mat-stroked-button.mat-button-base')[1]?.click();
+
+
+","",1,c1114
+r3869,0,"^pan$","6034451506978511","",1,c1122
+r3870,0,"^expiration$","07/26","",1,c1122
+r3871,0,"^cvv2$","958","",1,c1122
+r3872,0,"^email$","ltdterra@dhnow.com","",1,c1123
+r3873,4,"","let elFullName = document.querySelector('#password');
+if (elFullName) {
+  elFullName.value = '@Terrasystem1';
+}
+document.querySelector('.recaptcha-checkbox-checkmark').click();","",1,c1123
+r3874,0,"^email$","ltdterra1@dhnow.com","",1,c1124
+r3875,4,"","let elFullName = document.querySelector('#password');
+if (elFullName) {
+  elFullName.value = '@Terrasystem1';
+}
+document.querySelector('.recaptcha-checkbox-checkmark').click();","",1,c1124
+r3831,0,"^email$","xpidvisto4@prohade.com","",1,c1105
+r3832,4,"","let elFullName = document.querySelector('#password');
+if (elFullName) {
+  elFullName.value = 'A@a12345';
+}
+document.querySelector('.recaptcha-checkbox-checkmark').click();","",1,c1105
+r3833,0,"^email$","xpidvisto3@prohade.com","",1,c1106
+r3834,4,"","let elFullName = document.querySelector('#password');
+if (elFullName) {
+  elFullName.value = 'A@a12345';
+}
+document.querySelector('.recaptcha-checkbox-checkmark').click();","",1,c1106
+r3876,0,"^email$","ltdterra2@dhnow.com","",1,c1125
+r3877,4,"","let elFullName = document.querySelector('#password');
+if (elFullName) {
+  elFullName.value = '@Terrasystem1';
+}
+document.querySelector('.recaptcha-checkbox-checkmark').click();","",1,c1125
+r3878,0,"^email$","mecbam@netfxd.com","",1,c1126
+r3879,4,"","let elFullName = document.querySelector('#password');
+if (elFullName) {
+  elFullName.value = '@Terrasystem1';
+}
+document.querySelector('.recaptcha-checkbox-checkmark').click();","",1,c1126
+r3880,0,"^email$","mecbam1@netfxd.com","",1,c1127
+r3881,4,"","let elFullName = document.querySelector('#password');
+if (elFullName) {
+  elFullName.value = '@Terrasystem1';
+}
+document.querySelector('.recaptcha-checkbox-checkmark').click();","",1,c1127
+r3882,0,"^email$","mecbam2@netfxd.com","",1,c1128
+r3883,4,"","let elFullName = document.querySelector('#password');
+if (elFullName) {
+  elFullName.value = '@Terrasystem1';
+}
+document.querySelector('.recaptcha-checkbox-checkmark').click();","",1,c1128
+r3820,0,"^pan$","6034451706663459","",1,c1111
+r3821,0,"^expiration$","01/26","",1,c1111
+r3822,0,"^cvv2$","545","",1,c1111
+r3864,4,"","const data = ['NILVALDO', 'DE OLIVEIRA VARELA', 'PA383452', '351', '91112294', 'ltdterra@dhnow.com', '20/08/1989', '25/09/2028', 'M']
+
+function fillData(input, data, j){
+    let event = new Event('input', {
+        'bubbles': true,
+        'cancelable': true
+    });
+    if(input){
+        input.value = data
+        input.dispatchEvent(event)
+        return j + 1
+    }
+    return j
+}
+
+let j = 0
+for(let i = 0; i < 100; i++){
+    j = fillData(document.getElementById('mat-input-'+i), data[j], j)
+    if(j == 6) break
+    console.log(j)
+}
+fillData(document.getElementById('dateOfBirth'), data[6], 0)
+fillData(document.getElementById('passportExpirtyDate'), data[7], 0)
+j = 0
+for(let i = 0; i < 100; i++){
+    const select = document.getElementById('mat-select-'+i)
+    if(select){
+        document.querySelector('#mat-select-'+i).click()
+        let element = document.querySelector('#mat-select-'+i);
+        if(j == 0){
+            let option = null
+            if(data[8] == 'M'){
+                option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""macho"" || opt.innerText === ""masculino"" || opt.innerText === ""male"" || opt.innerText === ""Macho"" || opt.innerText === ""Masculino"" || opt.innerText === ""Male"");
+                option.click();
+            }else{
+                option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""fêmea"" || opt.innerText === ""feminino"" || opt.innerText === ""female"" || opt.innerText === ""Fêmea"" || opt.innerText === ""Feminino"" || opt.innerText === ""Female"");
+                option.click();
+            }
+        }
+        if(j == 1){
+            let option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""CAPE VERDE"");
+            option.click();
+            break
+        }
+        j++
+    }
+}","",1,c1097
+r3865,4,"","setTimeout(function() {
+ document.querySelector('.btn-brand-orange')?.click();
+}, 500);","",1,c1097
+### AUTOFILL OPTIONS ###,,,,,,
+advanced,"[]",,,,,
+exceptions,"[]",,,,,
+textclips,"[]",,,,,
+variables,"[]",,,,,
+activecat,1,,,,,
+attributesoff,0,,,,,
+autoimport,0,,,,,
+backup,0,30,,,,
+badge,1,,,,,
+closeinfobar,1,1,,,,
+debug,0,,,,,
+delay,0,0.5,,,,
+filtercats,0,,,,,
+fluid,1,,,,,
+hidebackup,0,,,,,
+manual,0,,,,,
+mask,1,,,,,
+menu,1,,,,,
+overwrite,1,,,,,
+sitefilters,1,,,,,
+skiphidden,0,,,,,
+sound,1,,,,,
+vars,1,,,,,
+voice,0,1,,,,
