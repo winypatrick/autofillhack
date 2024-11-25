@@ -1,31 +1,33 @@
 ### AUTOFILL PROFILES ###,,,,,,
 Profile ID,Name,Site,Hotkey,,,
-c1096,"***************{P de TRABALHO}******************-","","",,,
-c1097,"EMANUEL VAZ(*)","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Z",,,
+c1096,"***************{PRAIA}******************-","","",,,
+c1140,"ANILDA DE BRITO SEEMEDO","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Delete",,,
+c1165,"EDMILSON ALVES DE OLIVEIRA","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Backspace",,,
+c1097,"LUDIANA FONTES SOARES ROSA(*)","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","",,,
 c1099,"<>*********************************************<>","","",,,
-c1100,"***************{CONTRATO de TRABALHO}******************","","",,,
+c1100,"***************{SOMADA}******************","","",,,
+c1139,"NILVANO DE OLIVEIRA VARELA","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Enter",,,
 c1101,"<>***********************************************<>","","",,,
-c1102,"*****************{ESTUDANTES}***********************.","","",,,
-c1103,"<>**************************************************<>","","",,,
 c1104,"*************** [REGISTRO/LOGIN/IEFP]****************","","",,,
 c1105,">>LOGIN 1<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
-c1106,">>LOGIN 2<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
+c1106,">>LOGIN 2<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","Ctrl + Shift + Arrow Left",,,
 c1107,">>LOGIN 3<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
-c1123,">>LOGIN X1<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","Ctrl + Shift + Arrow Left",,,
-c1124,">>LOGIN X2<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","Ctrl + Shift + Arrow Up",,,
-c1125,">>LOGIN X3<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","Ctrl + Shift + Arrow Right",,,
-c1126,">>LOGIN Y1<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
-c1127,">>LOGIN Y2<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
-c1128,">>LOGIN Y3<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
+c1123,">>LOGIN X1<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
+c1124,">>LOGIN X2<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
+c1125,">>LOGIN X3<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","",,,
+c1126,">>LOGIN Y1<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","Ctrl + Shift + Arrow Up",,,
+c1127,">>LOGIN Y2<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","Ctrl + Shift + Arrow Right",,,
+c1128,">>LOGIN Y3<<","visa.vfsglobal.com/cpv/pt/prt/login || visa.vfsglobal.com/cpv/en/prt/login","Ctrl + Shift + Arrow Down",,,
 c1109,"***********[CONTA BANCARIO]***************","","",,,
-c1122,"<.>Conta Edy <.>","vinti4net.cv/bizmpi3ds/CardPayment","",,,
-c1111,"<.>Conta Coys<.>","vinti4net.cv/bizmpi3ds/CardPayment","",,,
+c1122,"<.>Conta Edy <.>","vinti4net.cv/bizmpi3ds/CardPayment","Ctrl + Z",,,
+c1111,"<.>Conta Coys<.>","vinti4net.cv/bizmpi3ds/CardPayment","Ctrl + X",,,
 c1113,"«««««««««««««««««»»»»»»»»»»»»»»»»»»»»","","",,,
 c1114,"»»»» NITRO   (N2O) «««««","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Space",,,
 c1115,"»»»» Seleção Procura/Contrato/Estudante«««««","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Arrow Up",,,
 c1116,"»»»» Seleção Reagrupamento«««««","visa.vfsglobal.com/cpv/en/prt/your-details || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Arrow Down",,,
 c1117,"»»»» Desativar Teclado Virtual ««««««","https://visa.vfsglobal.com/cpv/en/prt/application-detail || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Arrow Left",,,
-c1118,"»»»» Ativar Button Avanc ««««««","https://visa.vfsglobal.com/cpv/en/prt/application-detail || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Arrow Right",,,
+c1118,"»»»» Avanco Step Btn Desativado««««««","https://visa.vfsglobal.com/cpv/en/prt/application-detail || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Arrow Right",,,
+c1141,"»»»» Home ««««««","https://visa.vfsglobal.com/cpv/en/prt/application-detail || visa.vfsglobal.com/cpv/pt/prt/your-details","Ctrl + Q",,,
 c1119,"«««««««««««««««««»»»»»»»»»»»»»»»»»»»»»","","",,,
 ### AUTOFILL RULES ###,,,,,,
 Rule ID,Type,Name,Value,Site,Mode,Profile
@@ -42,9 +44,6 @@ document.querySelectorAll('.mat-select')[2]?.click();
 document.querySelectorAll('.mat-option')[0]?.click();
 }, 2000);
 ","",1,c1115
-r3827,4,"","document.querySelector('.btn-brand-orange')?.removeAttribute(""disabled"");
-
-","",1,c1118
 r3828,4,"","//document.querySelector('.btn-brand-orange')?.removeAttribute(""disabled"");
 document.querySelector('#mat-input-5')?.removeAttribute(""readonly"");
 document.querySelectorAll('.mat-input-element.mat-form-field-autofill-control')[0]?.removeAttribute(""readonly"");
@@ -181,7 +180,7 @@ document.querySelector('.recaptcha-checkbox-checkmark').click();","",1,c1128
 r3820,0,"^pan$","6034451706663459","",1,c1111
 r3821,0,"^expiration$","01/26","",1,c1111
 r3822,0,"^cvv2$","545","",1,c1111
-r3864,4,"","const data = ['NILVALDO', 'DE OLIVEIRA VARELA', 'PA383452', '351', '91112294', 'ltdterra@dhnow.com', '20/08/1989', '25/09/2028', 'M']
+r3864,4,"","const data = ['LUDIANA', 'FONTES SOARES ROSA', 'PA329465', '351', '91113294', 'alexpatrick2@gmail.com', '06/04/1966', '10/04/2028', 'f']
 
 function fillData(input, data, j){
     let event = new Event('input', {
@@ -231,6 +230,167 @@ for(let i = 0; i < 100; i++){
 r3865,4,"","setTimeout(function() {
  document.querySelector('.btn-brand-orange')?.click();
 }, 500);","",1,c1097
+r3827,4,"","document.querySelector('.btn-brand-orange')?.removeAttribute(""disabled"");
+
+setTimeout(function() {
+ document.querySelector('.btn-brand-orange')?.click();
+}, 500);
+
+","",1,c1118
+r3884,4,"","const data = ['NILVANO', 'DE OLIVEIRA VARELA', 'PA383452', '351', '91100294', 'alexpatrick40@gmail.com', '23/08/1989', '25/09/2028', 'M']
+
+function fillData(input, data, j){
+    let event = new Event('input', {
+        'bubbles': true,
+        'cancelable': true
+    });
+    if(input){
+        input.value = data
+        input.dispatchEvent(event)
+        return j + 1
+    }
+    return j
+}
+
+let j = 0
+for(let i = 0; i < 100; i++){
+    j = fillData(document.getElementById('mat-input-'+i), data[j], j)
+    if(j == 6) break
+    console.log(j)
+}
+fillData(document.getElementById('dateOfBirth'), data[6], 0)
+fillData(document.getElementById('passportExpirtyDate'), data[7], 0)
+j = 0
+for(let i = 0; i < 100; i++){
+    const select = document.getElementById('mat-select-'+i)
+    if(select){
+        document.querySelector('#mat-select-'+i).click()
+        let element = document.querySelector('#mat-select-'+i);
+        if(j == 0){
+            let option = null
+            if(data[8] == 'M'){
+                option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""macho"" || opt.innerText === ""masculino"" || opt.innerText === ""male"" || opt.innerText === ""Macho"" || opt.innerText === ""Masculino"" || opt.innerText === ""Male"");
+                option.click();
+            }else{
+                option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""fêmea"" || opt.innerText === ""feminino"" || opt.innerText === ""female"" || opt.innerText === ""Fêmea"" || opt.innerText === ""Feminino"" || opt.innerText === ""Female"");
+                option.click();
+            }
+        }
+        if(j == 1){
+            let option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""CAPE VERDE"");
+            option.click();
+            break
+        }
+        j++
+    }
+}","",1,c1139
+r3885,4,"","setTimeout(function() {
+ document.querySelector('.btn-brand-orange')?.click();
+}, 500);","",1,c1139
+r3886,4,"","const data = ['ANILDA', 'DE BRITO SEMEDO', 'PA368200', '351', '91113114', 'alexpa232@gmail.com', '20/02/1995', '22/08/2028', 'f']
+
+function fillData(input, data, j){
+    let event = new Event('input', {
+        'bubbles': true,
+        'cancelable': true
+    });
+    if(input){
+        input.value = data
+        input.dispatchEvent(event)
+        return j + 1
+    }
+    return j
+}
+
+let j = 0
+for(let i = 0; i < 100; i++){
+    j = fillData(document.getElementById('mat-input-'+i), data[j], j)
+    if(j == 6) break
+    console.log(j)
+}
+fillData(document.getElementById('dateOfBirth'), data[6], 0)
+fillData(document.getElementById('passportExpirtyDate'), data[7], 0)
+j = 0
+for(let i = 0; i < 100; i++){
+    const select = document.getElementById('mat-select-'+i)
+    if(select){
+        document.querySelector('#mat-select-'+i).click()
+        let element = document.querySelector('#mat-select-'+i);
+        if(j == 0){
+            let option = null
+            if(data[8] == 'M'){
+                option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""macho"" || opt.innerText === ""masculino"" || opt.innerText === ""male"" || opt.innerText === ""Macho"" || opt.innerText === ""Masculino"" || opt.innerText === ""Male"");
+                option.click();
+            }else{
+                option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""fêmea"" || opt.innerText === ""feminino"" || opt.innerText === ""female"" || opt.innerText === ""Fêmea"" || opt.innerText === ""Feminino"" || opt.innerText === ""Female"");
+                option.click();
+            }
+        }
+        if(j == 1){
+            let option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""CAPE VERDE"");
+            option.click();
+            break
+        }
+        j++
+    }
+}","",1,c1140
+r3887,4,"","setTimeout(function() {
+ document.querySelector('.btn-brand-orange')?.click();
+}, 500);","",1,c1140
+r3889,4,"","const data = ['EDMILSON', 'ALVES DE OLIVEIRA', 'PA384008', '351', '91166694', 'alexpatrick782@gmail.com', '06/04/1966', '28/11/2028', 'M']
+
+function fillData(input, data, j){
+    let event = new Event('input', {
+        'bubbles': true,
+        'cancelable': true
+    });
+    if(input){
+        input.value = data
+        input.dispatchEvent(event)
+        return j + 1
+    }
+    return j
+}
+
+let j = 0
+for(let i = 0; i < 100; i++){
+    j = fillData(document.getElementById('mat-input-'+i), data[j], j)
+    if(j == 6) break
+    console.log(j)
+}
+fillData(document.getElementById('dateOfBirth'), data[6], 0)
+fillData(document.getElementById('passportExpirtyDate'), data[7], 0)
+j = 0
+for(let i = 0; i < 100; i++){
+    const select = document.getElementById('mat-select-'+i)
+    if(select){
+        document.querySelector('#mat-select-'+i).click()
+        let element = document.querySelector('#mat-select-'+i);
+        if(j == 0){
+            let option = null
+            if(data[8] == 'M'){
+                option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""macho"" || opt.innerText === ""masculino"" || opt.innerText === ""male"" || opt.innerText === ""Macho"" || opt.innerText === ""Masculino"" || opt.innerText === ""Male"");
+                option.click();
+            }else{
+                option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""fêmea"" || opt.innerText === ""feminino"" || opt.innerText === ""female"" || opt.innerText === ""Fêmea"" || opt.innerText === ""Feminino"" || opt.innerText === ""Female"");
+                option.click();
+            }
+        }
+        if(j == 1){
+            let option = Array.from(document.querySelectorAll('.mat-option')).find(opt => opt.innerText === ""CAPE VERDE"");
+            option.click();
+            break
+        }
+        j++
+    }
+}","",1,c1165
+r3890,4,"","setTimeout(function() {
+ document.querySelector('.btn-brand-orange')?.click();
+}, 500);","",1,c1165
+r3888,4,"","setTimeout(function() {
+document.querySelector('.navbar-brand.cursor-pointer')?.click()
+}, 500);
+","",1,c1141
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[]",,,,,
 exceptions,"[]",,,,,
